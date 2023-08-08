@@ -1,6 +1,7 @@
 # gitpush.sh
 #!/bin/bash
 
+echo "Enter commit: "
 read mycommit
 git status
 git add -A
